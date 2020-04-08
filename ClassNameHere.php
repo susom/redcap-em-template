@@ -1,7 +1,7 @@
 <?php
 namespace Stanford\ClassNameHere;
 
-require_once "emLogger.php";
+require_once "emLoggerTrait.php";
 
 class ClassNameHere extends \ExternalModules\AbstractExternalModule {
 
