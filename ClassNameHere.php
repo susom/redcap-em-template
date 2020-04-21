@@ -5,7 +5,7 @@ require_once "emLoggerTrait.php";
 
 class ClassNameHere extends \ExternalModules\AbstractExternalModule {
 
-    use emLogger;
+    use emLoggerTrait;
 
     public function __construct() {
 		parent::__construct();
